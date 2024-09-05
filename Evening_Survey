@@ -1,0 +1,550 @@
+{
+  "survey_name": "Evening Survey",
+  "survey_id": "Evening_survey",
+  "survey": [
+    {
+      "question": "How was your overall mood today?",
+      "question_id": "q_mood",
+      "response_options": [
+        {
+          "text": "Very sad",
+          "icon": "number_circle_2",
+          "icon_background_color": "#6C757D",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        },
+        {
+          "text": "Sad",
+          "icon": "number_circle_1",
+          "icon_background_color": "#868E96",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        },
+        {
+          "text": "Happy",
+          "icon": "number_circle_1",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        },
+        {
+          "text": "Very Happy",
+          "icon": "number_circle_2",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        }
+      ]
+    },
+    {
+      "question": "How did you feel today?",
+      "question_id": "q_feel",
+      "response_options": [
+        {
+          "text": "Very angry",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_social_interactions"
+        },
+        {
+          "text": "Angry",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_social_interactions"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_social_interactions"
+        },
+        {
+          "text": "Friendly",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_social_interactions"
+        },
+        {
+          "text": "Very friendly",
+          "icon": "number_circle_2",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_social_interactions"
+        }
+      ]
+    },
+    {
+      "question": "What best describes your social interactions today?",
+      "question_id": "q_social_interactions",
+      "response_options": [
+        {
+          "text": "Very lonely",
+          "icon": "number_circle_2",
+          "icon_background_color": "#6C757D",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_productive"
+        },
+        {
+          "text": "Lonely",
+          "icon": "number_circle_1",
+          "icon_background_color": "#868E96",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_productive"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_productive"
+        },
+        {
+          "text": "Sociable",
+          "icon": "number_circle_1",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_productive"
+        },
+        {
+          "text": "Very sociable",
+          "icon": "number_circle_2",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_productive"
+        }
+      ]
+    },
+    {
+      "question": "Did you feel productive today?",
+      "question_id": "q_productive",
+      "response_options": [
+        {
+          "text": "Very unproductive",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_naps"
+        },
+        {
+          "text": "Unproductive",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_naps"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_naps"
+        },
+        {
+          "text": "Productive",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_naps"
+        },
+        {
+          "text": "Very Productive",
+          "icon": "number_circle_2",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_naps"
+        }
+      ]
+    },
+    {
+      "question": "Did you take any naps today?",
+      "question_id": "q_naps",
+      "response_options": [
+        {
+          "text": "Yes",
+          "icon": "text_yes",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_events"
+        },
+        {
+          "text": "No",
+          "icon": "text_no",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_events"
+        }
+      ]
+    },
+    {
+      "question": "Select events from the last 4-6 hours that might affect your sleep:",
+      "question_id": "q_events",
+      "response_options": [
+        {
+          "text": "Distressful event",
+          "icon": "person_stress",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "Happy event",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "Physical Event",
+          "icon": "person_dancing",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "Alcohol",
+          "icon": "beverage_alcohol",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "Coffee",
+          "icon": "beverage_coffee",
+          "icon_background_color": "#FF5733",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "Social event",
+          "icon": "social_media",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleepwear"
+        }
+      ]
+    },
+    {
+      "question": "Select your current sleepwear:",
+      "question_id": "q_sleepwear",
+      "response_options": [
+        {
+          "text": "Very light",
+          "icon": "clothes_shirt_sleeveless",
+          "icon_background_color": "#F1F1F1",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_layers"
+        },
+        {
+          "text": "Light",
+          "icon": "clothes_shirt_shorts",
+          "icon_background_color": "#E2E2E2",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_layers"
+        },
+        {
+          "text": "Medium",
+          "icon": "clothes_shirt_pants",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_layers"
+        },
+        {
+          "text": "Heavy",
+          "icon": "clothes_shirt_long_sleeves_pants",
+          "icon_background_color": "#B0B0B0",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_layers"
+        },
+        {
+          "text": "Nothing",
+          "icon": "x",
+          "icon_background_color": "#6C757D",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_layers"
+        }
+      ]
+    },
+    {
+      "question": "Describe your current bedding layers:",
+      "question_id": "q_bedding_layers",
+      "response_options": [
+        {
+          "text": "Thin Layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#F1F1F1",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_current_feel"
+        },
+        {
+          "text": "Medium Layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#E2E2E2",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_current_feel"
+        },
+        {
+          "text": "Thick Layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_current_feel"
+        },
+        {
+          "text": "More than 1 thick layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#B0B0B0",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_current_feel"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#6C757D",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_current_feel"
+        }
+      ]
+    },
+    {
+      "question": "Currently, do you feel…?",
+      "question_id": "q_current_feel",
+      "response_options": [
+        {
+          "text": "Cold",
+          "icon": "number_circle_2",
+          "icon_background_color": "#00BFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel"
+        },
+        {
+          "text": "Cool",
+          "icon": "number_circle_1",
+          "icon_background_color": "#87CEFA",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel"
+        },
+        {
+          "text": "Warm",
+          "icon": "number_circle_1",
+          "icon_background_color": "#FFCC99",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel"
+        },
+        {
+          "text": "Hot",
+          "icon": "number_circle_2",
+          "icon_background_color": "#FF6347",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel"
+        }
+      ]
+    },
+    {
+      "question": "Does the air currently feel…?",
+      "question_id": "q_air_feel",
+      "response_options": [
+        {
+          "text": "Very stuffy",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ambient"
+        },
+        {
+          "text": "Stuffy",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ambient"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ambient"
+        },
+        {
+          "text": "Fresh",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ambient"
+        },
+        {
+          "text": "Very Fresh",
+          "icon": "number_circle_2",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ambient"
+        }
+      ]
+    },
+    {
+      "question": "The ambient currently is…",
+      "question_id": "q_ambient",
+      "response_options": [
+        {
+          "text": "Very noisy",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lighting"
+        },
+        {
+          "text": "Noisy",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lighting"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lighting"
+        },
+        {
+          "text": "Quiet",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lighting"
+        },
+        {
+          "text": "Very quiet",
+          "icon": "number_circle_2",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lighting"
+        }
+      ]
+    },
+    {
+      "question": "The lighting currently is…",
+      "question_id": "q_lighting",
+      "response_options": [
+        {
+          "text": "Very dark",
+          "icon": "number_circle_2",
+          "icon_background_color": "#343A40",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Dark",
+          "icon": "number_circle_1",
+          "icon_background_color": "#495057",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Bright",
+          "icon": "number_circle_1",
+          "icon_background_color": "#FFD700",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Very bright",
+          "icon": "number_circle_2",
+          "icon_background_color": "#FFFF00",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
