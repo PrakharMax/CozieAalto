@@ -1,7 +1,37 @@
 {
-  "survey_name": "Evening Survey",
-  "survey_id": "Evening_survey",
+  "survey_name": "Cozie Survey",
+  "survey_id": "Cozie_survey",
   "survey": [
+        {
+      "question": "I am...",
+      "question_id": "q_check",
+      "response_options": [
+        {
+          "text": "Going to sleep in my bedroom",
+          "icon": "number_circle_2",
+          "icon_background_color": "#6C757D",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_mood"
+        },
+        {
+          "text": "Awake for the day in the morning",
+          "icon": "number_circle_1",
+          "icon_background_color": "#868E96",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_sleep_quality"
+        },
+        {
+          "text": "Not ready to take a survey",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feel"
+        }
+      ]
+    },
     {
       "question": "How was your overall mood today?",
       "question_id": "q_mood",
@@ -545,6 +575,428 @@
           "next_question_id": ""
         }
       ]
-    }
+    },
+        {
+      "question": "How was your sleep?",
+      "question_id": "q_sleep_quality",
+      "response_options": [
+        {
+          "text": "Very poor",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_preference_temp"
+        },
+        {
+          "text": "Poor",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_preference_temp"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_preference_temp"
+        },
+        {
+          "text": "Good",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_preference_temp"
+        },
+        {
+          "text": "Very good",
+          "icon": "number_circle_2",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_preference_temp"
+        }
+      ]
+    },
+    {
+      "question": "During last night, how would you prefer to be?",
+      "question_id": "q_preference_temp",
+      "response_options": [
+        {
+          "text": "Cooler",
+          "icon": "snowflake",
+          "icon_background_color": "#00BFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel_night"
+        },
+        {
+          "text": "Warmer",
+          "icon": "flame",
+          "icon_background_color": "#FF6347",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel_night"
+        },
+        {
+          "text": "No change",
+          "icon": "check_mark",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_feel_night"
+        }
+      ]
+    },
+    {
+      "question": "During last night, the air feel…?",
+      "question_id": "q_air_feel_night",
+      "response_options": [
+        {
+          "text": "Very stuffy",
+          "icon": "number_circle_2",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_noise_preference_night"
+        },
+        {
+          "text": "Stuffy",
+          "icon": "number_circle_1",
+          "icon_background_color": "#C82333",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_noise_preference_night"
+        },
+        {
+          "text": "Neutral",
+          "icon": "number_circle_0",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_noise_preference_night"
+        },
+        {
+          "text": "Fresh",
+          "icon": "number_circle_1",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_noise_preference_night"
+        },
+        {
+          "text": "Very fresh",
+          "icon": "number_circle_2",
+          "icon_background_color": "#007BFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_noise_preference_night"
+        }
+      ]
+    },
+    {
+      "question": "During last night, how would you prefer the noise to be?",
+      "question_id": "q_noise_preference_night",
+      "response_options": [
+        {
+          "text": "Quieter",
+          "icon": "speaker_mute",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_light_preference_night"
+        },
+        {
+          "text": "No change",
+          "icon": "check_mark",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_light_preference_night"
+        },
+        {
+          "text": "More sound",
+          "icon": "sound_waves",
+          "icon_background_color": "#FFCC00",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_light_preference_night"
+        }
+      ]
+    },
+    {
+      "question": "During last night, how would you prefer the lighting to be?",
+      "question_id": "q_light_preference_night",
+      "response_options": [
+        {
+          "text": "Dimmer",
+          "icon": "light_dim",
+          "icon_background_color": "#343A40",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_air_movement_preference_night"
+        },
+        {
+          "text": "No change",
+          "icon": "check_mark",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_movement_preference_night"
+        },
+        {
+          "text": "Brighter",
+          "icon": "light_bright",
+          "icon_background_color": "#FFD700",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_movement_preference_night"
+        }
+      ]
+    },
+    {
+      "question": "During last night, how would you prefer the air movement to be?",
+      "question_id": "q_air_movement_preference_night",
+      "response_options": [
+        {
+          "text": "Less",
+          "icon": "wind",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_air_humidity_preference_night"
+        },
+        {
+          "text": "No change",
+          "icon": "check_mark",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_humidity_preference_night"
+        },
+        {
+          "text": "More",
+          "icon": "wind.snow",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_air_humidity_preference_night"
+        }
+      ]
+    },
+    {
+      "question": "During last night, how would you prefer the air humidity to be?",
+      "question_id": "q_air_humidity_preference_night",
+      "response_options": [
+        {
+          "text": "Less",
+          "icon": "dust",
+          "icon_background_color": "#17A2B8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing_adjustments_night"
+        },
+        {
+          "text": "No change",
+          "icon": "check_mark",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_adjustments_night"
+        },
+        {
+          "text": "More",
+          "icon": "drops",
+          "icon_background_color": "#FFC107",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Clothing adjustments during the night?",
+      "question_id": "q_clothing_adjustments_night",
+      "response_options": [
+        {
+          "text": "Removed layer",
+          "icon": "clothes_shirt_long_sleeves_pants",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_bedding_adjustments_night"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_bedding_adjustments_night"
+        },
+        {
+          "text": "Added layer",
+          "icon": "clothes_shirt_long_sleeves_pants",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_bedding_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Bedding adjustments during the night?",
+      "question_id": "q_bedding_adjustments_night",
+      "response_options": [
+        {
+          "text": "Removed layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_window_adjustments_night"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_window_adjustments_night"
+        },
+        {
+          "text": "Added layer",
+          "icon": "clothing_bedding",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_window_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Window adjustments during the night?",
+      "question_id": "q_window_adjustments_night",
+      "response_options": [
+        {
+          "text": "window_closed",
+          "icon": "closed_window",
+          "icon_background_color": "#DC3545",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_temperature_adjustments_night"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temperature_adjustments_night"
+        },
+        {
+          "text": "Opened window",
+          "icon": "window_open",
+          "icon_background_color": "#28A745",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_temperature_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Temperature adjustments during the night?",
+      "question_id": "q_temperature_adjustments_night",
+      "response_options": [
+        {
+          "text": "Decreased temperature",
+          "icon": "thermometer.low",
+          "icon_background_color": "#00BFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ventilation_adjustments_night"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ventilation_adjustments_night"
+        },
+        {
+          "text": "Increased temperature",
+          "icon": "thermometer.high",
+          "icon_background_color": "#FF6347",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_ventilation_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Ventilation adjustments during the night?",
+      "question_id": "q_ventilation_adjustments_night",
+      "response_options": [
+        {
+          "text": "Decreased fan level",
+          "icon": "fan_small",
+          "icon_background_color": "#00BFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lights_adjustments_night"
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lights_adjustments_night"
+        },
+        {
+          "text": "Increased fan level",
+          "icon": "fan_medium",
+          "icon_background_color": "#FF6347",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_lights_adjustments_night"
+        }
+      ]
+    },
+    {
+      "question": "Lights adjustments during the night?",
+      "question_id": "q_lights_adjustments_night",
+      "response_options": [
+        {
+          "text": "Decreased lighting/turned off",
+          "icon": "light_dim",
+          "icon_background_color": "#343A40",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": ""
+        },
+        {
+          "text": "None",
+          "icon": "x",
+          "icon_background_color": "#D3D3D3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Increased lighting/turned on",
+          "icon": "light_bright",
+          "icon_background_color": "#FFD700",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
   ]
+}
+]
 }
