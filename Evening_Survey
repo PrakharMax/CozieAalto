@@ -8,7 +8,7 @@
       "response_options": [
         {
           "text": "Going to sleep in my bedroom",
-          "icon": "number_circle_2",
+          "icon": "person_sleep",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
@@ -16,7 +16,7 @@
         },
         {
           "text": "Awake for the day in the morning",
-          "icon": "number_circle_1",
+          "icon": "person_wake_up",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
@@ -221,7 +221,7 @@
       "question_id": "q_naps",
       "response_options": [
         {
-          "text": "",
+          "text": "Yes",
           "icon": "text_yes",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
@@ -229,7 +229,7 @@
           "next_question_id": "q_events"
         },
         {
-          "text": "",
+          "text": "No",
           "icon": "text_no",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
@@ -917,7 +917,7 @@
           "icon": "thermometer.low",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#FF0000",
+          "sf_symbols_color": "#000000",
           "next_question_id": "q_ventilation_adjustments_night"
         },
         {
@@ -933,7 +933,7 @@
           "icon": "thermometer.high",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#FF0000",
+          "sf_symbols_color": "#000000",
           "next_question_id": "q_ventilation_adjustments_night"
         }
       ]
