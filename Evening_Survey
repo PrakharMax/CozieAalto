@@ -39,7 +39,7 @@
         {
           "text": "Very sad",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_feel"
@@ -47,7 +47,7 @@
         {
           "text": "Sad",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_feel"
@@ -55,7 +55,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_feel"
@@ -63,7 +63,7 @@
         {
           "text": "Happy",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_feel"
@@ -71,7 +71,7 @@
         {
           "text": "Very Happy",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_feel"
@@ -85,7 +85,7 @@
         {
           "text": "Very angry",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_social_interactions"
@@ -93,7 +93,7 @@
         {
           "text": "Angry",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_social_interactions"
@@ -101,7 +101,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_social_interactions"
@@ -109,7 +109,7 @@
         {
           "text": "Friendly",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_social_interactions"
@@ -117,7 +117,7 @@
         {
           "text": "Very friendly",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_social_interactions"
@@ -131,7 +131,7 @@
         {
           "text": "Very lonely",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_productive"
@@ -139,7 +139,7 @@
         {
           "text": "Lonely",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_productive"
@@ -147,7 +147,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_productive"
@@ -155,7 +155,7 @@
         {
           "text": "Sociable",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_productive"
@@ -163,7 +163,7 @@
         {
           "text": "Very sociable",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_productive"
@@ -177,7 +177,7 @@
         {
           "text": "Very unproductive",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_naps"
@@ -185,7 +185,7 @@
         {
           "text": "Unproductive",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_naps"
@@ -193,7 +193,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_naps"
@@ -201,7 +201,7 @@
         {
           "text": "Productive",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_naps"
@@ -209,7 +209,7 @@
         {
           "text": "Very Productive",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_naps"
@@ -374,7 +374,7 @@
         },
         {
           "text": "Heavy",
-          "icon": "clothes_shirt_long_sleeves_pants",
+          "icon": "clothes_pullover",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
@@ -443,7 +443,7 @@
         {
           "text": "Cold",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_air_feel"
@@ -451,7 +451,7 @@
         {
           "text": "Cool",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_air_feel"
@@ -459,7 +459,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_air_feel"
@@ -467,7 +467,7 @@
         {
           "text": "Warm",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_air_feel"
@@ -475,7 +475,7 @@
         {
           "text": "Hot",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_air_feel"
@@ -489,7 +489,7 @@
         {
           "text": "Very stuffy",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_ambient"
@@ -497,7 +497,7 @@
         {
           "text": "Stuffy",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_ambient"
@@ -505,7 +505,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_ambient"
@@ -513,7 +513,7 @@
         {
           "text": "Fresh",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_ambient"
@@ -521,7 +521,7 @@
         {
           "text": "Very Fresh",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_ambient"
@@ -535,7 +535,7 @@
         {
           "text": "Very noisy",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_lighting"
@@ -543,7 +543,7 @@
         {
           "text": "Noisy",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_lighting"
@@ -551,7 +551,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_lighting"
@@ -559,7 +559,7 @@
         {
           "text": "Quiet",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_lighting"
@@ -567,7 +567,7 @@
         {
           "text": "Very quiet",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_lighting"
@@ -581,7 +581,7 @@
         {
           "text": "Very dark",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": ""
@@ -589,7 +589,7 @@
         {
           "text": "Dark",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": ""
@@ -597,7 +597,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": ""
@@ -605,7 +605,7 @@
         {
           "text": "Bright",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": ""
@@ -613,7 +613,7 @@
         {
           "text": "Very bright",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": ""
@@ -627,7 +627,7 @@
         {
           "text": "Very poor",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_preference_temp"
@@ -635,7 +635,7 @@
         {
           "text": "Poor",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_preference_temp"
@@ -643,7 +643,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_preference_temp"
@@ -651,7 +651,7 @@
         {
           "text": "Good",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_preference_temp"
@@ -659,7 +659,7 @@
         {
           "text": "Very good",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_preference_temp"
@@ -703,7 +703,7 @@
         {
           "text": "Very stuffy",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_noise_preference_night"
@@ -711,7 +711,7 @@
         {
           "text": "Stuffy",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_noise_preference_night"
@@ -719,7 +719,7 @@
         {
           "text": "Neutral",
           "icon": "0.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_noise_preference_night"
@@ -727,7 +727,7 @@
         {
           "text": "Fresh",
           "icon": "1.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_noise_preference_night"
@@ -735,7 +735,7 @@
         {
           "text": "Very fresh",
           "icon": "2.circle",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_noise_preference_night"
