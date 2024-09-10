@@ -226,7 +226,7 @@
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_events"
+          "next_question_id": "q_consumption"
         },
         {
           "text": "No",
@@ -234,72 +234,116 @@
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_events"
+          "next_question_id": "q_consumption"
         }
       ]
+    },
+{
+  "question": "Have you consumed alcohol or caffeine 5h before sleep?",
+  "question_id": "q_consumption",
+  "response_options": [
+    {
+      "text": "No",
+      "icon": "x",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_event_attendance"
     },
     {
-      "question": "Select events from the last 4-6 hours that might affect your sleep:",
-      "question_id": "q_events",
-      "response_options": [
-        {
-          "text": "Distressful event",
-          "icon": "person_stress",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "Happy event",
-          "icon": "emoticon_happy",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "Physical Event",
-          "icon": "person_dancing",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "Alcohol",
-          "icon": "beverage_alcohol",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "Coffee",
-          "icon": "beverage_coffee",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "Social event",
-          "icon": "social_media",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        },
-        {
-          "text": "None",
-          "icon": "x",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_sleepwear"
-        }
-      ]
+      "text": "Yes, caffeine",
+      "icon": "beverage_energy_drink_coffee",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_event_attendance"
     },
+    {
+      "text": "Yes, alcohol",
+      "icon": "beverage_alcohol",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_event_attendance"
+    },
+    {
+      "text": "Yes, both",
+      "icon": "beverage_energy_drink_coffee_alcohol",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_event_attendance"
+    }
+  ]
+},
+{
+  "question": "Did you attend an event 5h before sleep?",
+  "question_id": "q_event_attendance",
+  "response_options": [
+    {
+      "text": "No",
+      "icon": "x",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_exercise"
+    },
+    {
+      "text": "Yes, a happy event",
+      "icon": "emoticon_happy",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_exercise"
+    },
+    {
+      "text": "Yes, a distressful event",
+      "icon": "person_stress",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_exercise"
+    },
+    {
+      "text": "Yes, a social event",
+      "icon": "person_2_dialog_4",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_exercise"
+    },
+    {
+      "text": "Yes, other event",
+      "icon": "person_head_relax",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_exercise"
+    }
+  ]
+},
+{
+  "question": "Did you exercise today?",
+  "question_id": "q_exercise",
+  "response_options": [
+    {
+      "text": "Yes",
+      "icon": "text_yes",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_sleepwear"
+    },
+    {
+      "text": "No",
+      "icon": "text_no",
+      "icon_background_color": "#F1A62E",
+      "use_sf_symbols": false,
+      "sf_symbols_color": "#000000",
+      "next_question_id": "q_sleepwear"
+    }
+  ]
+},
     {
       "question": "Select your current sleepwear:",
       "question_id": "q_sleepwear",
