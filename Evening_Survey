@@ -84,41 +84,41 @@
          "response_options":[
             {
                "text":"Very unproductive",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_naps"
             },
             {
                "text":"Unproductive",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_naps"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_naps"
             },
             {
                "text":"Productive",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_naps"
             },
             {
                "text":"Very Productive",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_naps"
             }
@@ -304,41 +304,41 @@
          "response_options":[
             {
                "text":"Cold",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_air_feel"
             },
             {
                "text":"Cool",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_air_feel"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_air_feel"
             },
             {
                "text":"Warm",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_air_feel"
             },
             {
                "text":"Hot",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_air_feel"
             }
@@ -350,41 +350,41 @@
          "response_options":[
             {
                "text":"Very stuffy",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_ambient"
             },
             {
                "text":"Stuffy",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_ambient"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_ambient"
             },
             {
                "text":"Fresh",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_ambient"
             },
             {
                "text":"Very Fresh",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_ambient"
             }
@@ -396,41 +396,41 @@
          "response_options":[
             {
                "text":"Very noisy",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_lighting"
             },
             {
                "text":"Noisy",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_lighting"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_lighting"
             },
             {
                "text":"Quiet",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_lighting"
             },
             {
                "text":"Very quiet",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_lighting"
             }
@@ -442,41 +442,41 @@
          "response_options":[
             {
                "text":"Very dark",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":""
             },
             {
                "text":"Dark",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":""
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":""
             },
             {
                "text":"Bright",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":""
             },
             {
                "text":"Very bright",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":""
             }
@@ -488,41 +488,41 @@
          "response_options":[
             {
                "text":"Very poor",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_preference_temp"
             },
             {
                "text":"Poor",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_preference_temp"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_preference_temp"
             },
             {
                "text":"Good",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_preference_temp"
             },
             {
                "text":"Very good",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_preference_temp"
             }
@@ -564,41 +564,41 @@
          "response_options":[
             {
                "text":"Very stuffy",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_noise_preference_night"
             },
             {
                "text":"Stuffy",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_noise_preference_night"
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_noise_preference_night"
             },
             {
                "text":"Fresh",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_noise_preference_night"
             },
             {
                "text":"Very fresh",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
-               "use_sf_symbols":true,
+               "use_sf_symbols":false,
                "sf_symbols_color":"#000000",
                "next_question_id":"q_noise_preference_night"
             }
