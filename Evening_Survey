@@ -38,7 +38,7 @@
          "response_options":[
             {
                "text":"Very sad",
-               "icon":"2.circle",
+               "icon":"number_circle_negative_2",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
                "sf_symbols_color":"#000000",
@@ -46,7 +46,7 @@
             },
             {
                "text":"Sad",
-               "icon":"1.circle",
+               "icon":"number_circle_negative_1",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
                "sf_symbols_color":"#000000",
@@ -54,7 +54,7 @@
             },
             {
                "text":"Neutral",
-               "icon":"0.circle",
+               "icon":"number_circle_0",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
                "sf_symbols_color":"#000000",
@@ -62,7 +62,7 @@
             },
             {
                "text":"Happy",
-               "icon":"1.circle",
+               "icon":"number_circle_1",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
                "sf_symbols_color":"#000000",
@@ -70,7 +70,7 @@
             },
             {
                "text":"Very Happy",
-               "icon":"2.circle",
+               "icon":"number_circle_2",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
                "sf_symbols_color":"#000000",
@@ -776,7 +776,7 @@
          "response_options":[
             {
                "text":"Closed window",
-               "icon":"closed_window",
+               "icon":"window_closed",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -784,7 +784,7 @@
             },
             {
                "text":"Opened window",
-               "icon":"open_window",
+               "icon":"window_open",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -792,7 +792,7 @@
             },
             {
                "text":"Closed door",
-               "icon":"closed_window",
+               "icon":"door_closed",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -800,7 +800,7 @@
             },
             {
                "text":"Opened door",
-               "icon":"closed_window",
+               "icon":"door_open",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -808,7 +808,7 @@
             },
             {
                "text":"Changed temperature settings",
-               "icon":"closed_window",
+               "icon":"thermometer",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -816,7 +816,7 @@
             },
             {
                "text":"Changed ventilation settings",
-               "icon":"closed_window",
+               "icon":"air_conditioning_unit",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
@@ -824,7 +824,7 @@
             },
             {
                "text":"Changed lighting settings",
-               "icon":"closed_window",
+               "icon":"building_house_lighting",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
