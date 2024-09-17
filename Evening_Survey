@@ -673,7 +673,7 @@
                "icon":"wind",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
-               "sf_symbols_color":"#FF0000",
+               "sf_symbols_color":"#000000",
                "next_question_id":"q_air_humidity_preference_night"
             },
             {
@@ -689,7 +689,7 @@
                "icon":"wind.snow",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":true,
-               "sf_symbols_color":"#FF0000",
+               "sf_symbols_color":"#000000",
                "next_question_id":"q_air_humidity_preference_night"
             }
          ]
