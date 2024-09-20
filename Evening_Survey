@@ -807,24 +807,8 @@
                "next_question_id":""
             },
             {
-               "text":"Changed temperature settings",
-               "icon":"thermometer",
-               "icon_background_color":"#F1A62E",
-               "use_sf_symbols":false,
-               "sf_symbols_color":"#FFFFFF",
-               "next_question_id":""
-            },
-            {
-               "text":"Changed ventilation settings",
-               "icon":"air_conditioning_unit",
-               "icon_background_color":"#F1A62E",
-               "use_sf_symbols":false,
-               "sf_symbols_color":"#FFFFFF",
-               "next_question_id":""
-            },
-            {
-               "text":"Changed lighting settings",
-               "icon":"building_house_lighting",
+               "text":"Others",
+               "icon":"point_three_horizontal",
                "icon_background_color":"#F1A62E",
                "use_sf_symbols":false,
                "sf_symbols_color":"#FFFFFF",
