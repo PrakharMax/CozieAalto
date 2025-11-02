@@ -47,7 +47,7 @@
       "question_id": "q5_ventilation",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
-        { "text": "Opened a window/door", "icon": "	window_open", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
+        { "text": "Opened a window/door", "icon": "window_open", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
         { "text": "Closed a window/door", "icon": "window_closed", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
         { "text": "Turned on the exhaust fan", "icon": "fan", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
         { "text": "Turned off the exhaust fan", "icon": "off", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" }
@@ -70,7 +70,7 @@
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Turned heater/radiator on or off", "icon": "flame_snowflake_vertical", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
-        { "text": "Started oven/stove", "icon": "	building_house_lighting", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Started oven/stove", "icon": "building_house_lighting", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Turned humidifier/diffuser on or off", "icon": "drops", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Other appliance change", "icon": "point_three_horizontal", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
