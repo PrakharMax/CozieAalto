@@ -7,11 +7,11 @@
       "question_id": "q1_leave_workspace",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q2_back" },
-        { "text": "Break", "icon": "pause.circle.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q2_back" },
-        { "text": "Lunch / Meal", "icon": "cutlery", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q2_back" },
-        { "text": "Errand", "icon": "person_walking_2", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q2_back" },
-        { "text": "Change workspace", "icon": "arrow_round_left_and_right", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q2_back" },
-        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q2_back" }
+        { "text": "Break", "icon": "pause.circle.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Lunch / Meal", "icon": "cutlery", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Errand", "icon": "person_walking_2", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Change workspace", "icon": "arrow_round_left_and_right", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
@@ -19,7 +19,7 @@
       "question_id": "q2_back",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q3_symptom" },
-        { "text": "Yes", "icon": "text_yes", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q3_symptom" }
+        { "text": "Yes", "icon": "text_yes", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
@@ -27,10 +27,10 @@
       "question_id": "q3_symptom",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" },
-        { "text": "Headache / Dizziness", "icon": "illness_head_ache", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" },
-        { "text": "Weakness or fatigue", "icon": "illness_sick", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" },
-        { "text": "Eye irritation", "icon": "human_eye", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" },
-        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" }
+        { "text": "Headache / Dizziness", "icon": "illness_head_ache", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Weakness or fatigue", "icon": "illness_sick", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Eye irritation", "icon": "human_eye", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
@@ -38,8 +38,8 @@
       "question_id": "q4_clothing",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q5_ventilation" },
-        { "text": "Added a clothing layer", "icon": "clothes_shirt_long_sleeves_pants", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q5_ventilation" },
-        { "text": "Removed a clothing layer", "icon": "clothes_shirt_pants", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q5_ventilation" }
+        { "text": "Added a clothing layer", "icon": "clothes_shirt_long_sleeves_pants", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Removed a clothing layer", "icon": "clothes_shirt_pants", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
@@ -47,10 +47,10 @@
       "question_id": "q5_ventilation",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
-        { "text": "Opened a window/door", "icon": "window_open", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
-        { "text": "Closed a window/door", "icon": "window_closed", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
-        { "text": "Turned on the exhaust fan", "icon": "fan", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" },
-        { "text": "Turned off the exhaust fan", "icon": "off", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q6_visitor" }
+        { "text": "Opened a window/door", "icon": "window_open", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Closed a window/door", "icon": "window_closed", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Turned on the exhaust fan", "icon": "fan", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Turned off the exhaust fan", "icon": "off", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
@@ -58,10 +58,10 @@
       "question_id": "q6_visitor",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q7_appliance" },
-        { "text": "Housemate / Family", "icon": "person.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q7_appliance" },
-        { "text": "Guest", "icon": "person.badge.plus", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q7_appliance" },
-        { "text": "Pet", "icon": "dog_cat", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "q7_appliance" },
-        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q7_appliance" }
+        { "text": "Housemate / Family", "icon": "person.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Guest", "icon": "person.badge.plus", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Pet", "icon": "dog_cat", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
