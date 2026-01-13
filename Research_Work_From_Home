@@ -11,11 +11,12 @@
         { "text": "Lunch / Meal", "icon": "cutlery", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Errand", "icon": "person_walking_2", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Change workspace", "icon": "arrow_round_left_and_right", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
-        { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
+        { "text": "Done for the day!", "icon": "off", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+         { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
       ]
     },
     {
-      "question": "Are you back at the workstation?",
+      "question": "Are you at the workstation?",
       "question_id": "q2_back",
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q3_symptom" },
