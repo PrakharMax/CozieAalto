@@ -29,6 +29,7 @@
       "response_options": [
         { "text": "Skip", "icon": "forward.end.fill", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "q4_clothing" },
         { "text": "Headache / Dizziness", "icon": "illness_head_ache", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
+        { "text": "Noise Disturbance", "icon": "person_noise", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Weakness or fatigue", "icon": "illness_sick", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Eye irritation", "icon": "human_eye", "icon_background_color": "#ABCDEF", "use_sf_symbols": false, "sf_symbols_color": "#000000", "next_question_id": "" },
         { "text": "Others", "icon": "ellipsis", "icon_background_color": "#ABCDEF", "use_sf_symbols": true, "sf_symbols_color": "#000000", "next_question_id": "" }
